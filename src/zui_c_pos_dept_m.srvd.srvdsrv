@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for POS Depart'
+define service ZUI_C_POS_DEPT_M {
+  expose ZC_POS_DEPT_M as POSDeptProcessor;
+}

@@ -1,0 +1,8 @@
+@EndUserText.label: 'Service definition for POS Dept Map'
+define service ZUI_C_POS_DEPT_MAP_M {
+  expose ZC_POS_DEPT_MAP_M as POSDeptM_Processor;
+  expose ZI_STORE_M as Store;
+  expose ZI_POS_DEPT_M as POSDept;
+  expose ZI_STORE_M_VH as StoreVH;
+  expose ZI_POS_DEPT_M_VH as POSDeptVH;
+}

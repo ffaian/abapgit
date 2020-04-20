@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for Store'
+define service ZUI_C_STORE_M {
+  expose ZC_STORE_M as StoreProcessor;
+}

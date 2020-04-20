@@ -1,0 +1,12 @@
+projection;
+
+define behavior for ZC_POS_DEPT_MAP_M alias POSDeptM_Processor
+use etag {
+
+  // scenario specific field control
+  field ( mandatory ) CFIN_Proft_Ctr;
+
+  use create;
+  use update;
+  use delete;
+}

@@ -1,0 +1,13 @@
+projection;
+
+define behavior for ZC_POS_DEPT_M alias POSDeptProcessor
+use etag
+{
+
+  // scenario specific field control
+  field ( mandatory ) Description;
+
+  use create;
+  use update;
+  use delete;
+}

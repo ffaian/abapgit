@@ -1,0 +1,5 @@
+CLASS zcl_bp_i_pos_dept_2_m DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zi_pos_dept_2_m.
+ENDCLASS.
+
+CLASS zcl_bp_i_pos_dept_2_m IMPLEMENTATION.
+ENDCLASS.
